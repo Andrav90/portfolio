@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+  font-family: 'Playball', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+  font-family: 'Open Sans', sans-serif;
+  src:url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+.apply-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+}

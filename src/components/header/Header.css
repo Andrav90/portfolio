@@ -1,0 +1,76 @@
+.desktop-header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+}
+
+.header-my-name {
+    margin-top: 10%;
+    width: 45%;
+    height: 40%;
+}
+
+.header-my-name p {
+    text-align: center;
+    font-size: 60px;
+}
+
+.header-hr {
+    border: 0;
+    clear: both;
+    display: block;
+    margin-left: 15%;      
+    margin-right: 15%;   
+    margin-top: 3%;
+    margin-bottom: 3%;    
+    background: black;
+    height: 2px;
+}
+
+.header-see-work {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-see-work p {
+    font-size: 30px;
+}
+
+.header-see-work:hover {
+    transform: scale(1.1);
+}
+
+.header-click-scroll {
+    font-style: italic;
+}
+
+.header-click-scroll:hover {
+    cursor: pointer;
+}
+
+.down-arrow {
+    width: 40px;
+    height: 40px;
+}
+
+.down-arrow:hover {
+    cursor: pointer;
+}
+
+.canvas {
+    width: 100%;
+    height: 100%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
