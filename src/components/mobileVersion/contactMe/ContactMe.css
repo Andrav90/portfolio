@@ -1,0 +1,21 @@
+@media screen and (max-width: 830px) { 
+    .contact-me-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 15px;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    .contact-me-links p {
+        font-size: 15px;
+    }
+
+    
+    .contact-me-icons {
+        width: 27px;
+        height: 27px;
+        margin-right: 30px;
+    }
+}

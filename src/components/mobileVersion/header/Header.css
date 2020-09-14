@@ -1,0 +1,24 @@
+@media screen and (max-width: 830px) { 
+    .header-my-name p {
+        font-size: 29px;
+    }
+
+    .header-hr {
+        margin-left: 0;      
+        margin-right: 0;   
+        margin-top: 15%;
+        margin-bottom: 15%;    
+    }
+
+    .header-see-work p {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 15%;
+        font-size: 25px;
+    }
+
+    .down-arrow {
+        width: 20px;
+        height: 20px;
+    }
+}

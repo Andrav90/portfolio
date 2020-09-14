@@ -1,0 +1,73 @@
+@media screen and (max-width: 830px) { 
+    .projects-title {
+        margin-top: 10%;
+    }
+
+    .projects-photos {
+        width: 70vw;
+        height: auto;
+    }
+
+    .projects-container{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+
+    .projects-containers {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20%;
+    }
+
+
+    .hidden-info-btn1, 
+    .hidden-info-btn2,
+    .hidden-info-btn3 {
+        position: absolute;
+        top: 50%;
+        /* left: 50%; */
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 15px;
+        /* padding: 12px 24px; */
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+
+    .extended-info1, 
+    .extended-info2,
+    .extended-info3 {
+        width: 90%;
+        margin-left: -10%;
+        padding-bottom: 20px;
+    }
+
+    .extended-info1 p,
+    .extended-info2 p,
+    .extended-info3 p {
+        text-align: justify;
+    }
+
+    .close-extended {
+        margin-top: 5%;
+    }
+
+    .links-to-demo-title {
+        margin-top: 10%;
+    }
+
+    .technologies-icons {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .links-to-demo-code {
+        margin-left: 5%;
+    }
+}

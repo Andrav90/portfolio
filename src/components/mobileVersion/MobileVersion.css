@@ -1,0 +1,14 @@
+@media screen and (max-width: 830px) { 
+    .go-top-btn-desktop{
+        width: 40px;
+        height: 40px;
+        bottom: 30px;
+        right: 30px;
+        font-size: 25px;
+    }
+    
+    .go-top-btn-desktop i {
+        width: 40px;
+        align-self: center;
+    }
+}

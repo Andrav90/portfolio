@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e3071dd.chunk.css",
+    "main.js": "/static/js/main.2b28e1a1.chunk.js",
+    "main.js.map": "/static/js/main.2b28e1a1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.353c3870.chunk.js": "/static/js/2.353c3870.chunk.js",
+    "static/js/2.353c3870.chunk.js.map": "/static/js/2.353c3870.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3dc3773795a60e622fc93e6bf00dd184.js": "/precache-manifest.3dc3773795a60e622fc93e6bf00dd184.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7e3071dd.chunk.css.map": "/static/css/main.7e3071dd.chunk.css.map",
+    "static/js/2.353c3870.chunk.js.LICENSE.txt": "/static/js/2.353c3870.chunk.js.LICENSE.txt",
+    "static/media/Andra_Vraciu_CV.pdf": "/static/media/Andra_Vraciu_CV.f7f97fb4.pdf",
+    "static/media/bootstrap.3ff965b6.svg": "/static/media/bootstrap.3ff965b6.svg",
+    "static/media/checkmark.606a9fc1.svg": "/static/media/checkmark.606a9fc1.svg",
+    "static/media/down-arrow.ae427edb.svg": "/static/media/down-arrow.ae427edb.svg",
+    "static/media/firebase.6caacd1a.svg": "/static/media/firebase.6caacd1a.svg",
+    "static/media/github.192a6620.svg": "/static/media/github.192a6620.svg",
+    "static/media/global.e243466f.svg": "/static/media/global.e243466f.svg",
+    "static/media/linkedin2.6c8e140e.svg": "/static/media/linkedin2.6c8e140e.svg",
+    "static/media/myPicture.png": "/static/media/myPicture.bb1a8e90.png",
+    "static/media/project1.PNG": "/static/media/project1.b644559d.PNG",
+    "static/media/project2.PNG": "/static/media/project2.655b519c.PNG",
+    "static/media/project3.PNG": "/static/media/project3.74db7033.PNG",
+    "static/media/react-router.02419671.svg": "/static/media/react-router.02419671.svg",
+    "static/media/react.70384772.svg": "/static/media/react.70384772.svg",
+    "static/media/redux.85772647.svg": "/static/media/redux.85772647.svg",
+    "static/media/x-mark.1603865d.svg": "/static/media/x-mark.1603865d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.353c3870.chunk.js",
+    "static/css/main.7e3071dd.chunk.css",
+    "static/js/main.2b28e1a1.chunk.js"
+  ]
+}

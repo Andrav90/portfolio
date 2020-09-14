@@ -1,0 +1,19 @@
+.footer-container {
+    width: 100%;
+    height: 10vh;
+    /* font-size: 20px; */
+}
+
+.footer-c {
+    margin-top: 4vh;
+    text-align: center;
+    font-family: Open-sans, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+@media screen and (max-width: 830px) { 
+    .footer-c {
+        font-size: 15px;
+    }
+}

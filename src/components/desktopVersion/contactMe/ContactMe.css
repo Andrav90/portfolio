@@ -1,0 +1,52 @@
+.contact-me-container {
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 16px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.contact-me-container p {
+    color: #555759;
+}
+
+.contact-me-title {
+    margin-bottom: 6%;
+}
+
+.contact-me-icons {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+.cv-link {
+    color: black;
+}
+
+.contact-me-links:hover, .cv-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-me-icons:hover {
+   animation: bounce 2.5s infinite; 
+   -webkit-animation: bounce 2.5s infinite; 
+   -moz-animation: bounce 2.5s infinite; 
+   -o-animation: bounce 2.5s infinite;
+}
+
+.contact-me-links {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+}
+
+.contact-me-links p {
+    margin-top: 15px;
+}
