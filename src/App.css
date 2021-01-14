@@ -1,22 +1,142 @@
-@font-face {
-  font-family: 'Raleway', sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-  font-family: 'Playball', cursive;
-  src: url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
-  font-family: 'Open Sans', sans-serif;
-  src:url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.go-top-btn-desktop:hover {
+    opacity: 100%;
 }
 
-.apply-flex-column {
-  display: flex;
-  flex-direction: column;
+.go-top-btn-desktop {
+    border-radius: 50%;
+    font-size: 30px;
+    opacity: 70%;
+    position: fixed;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background: #d295b0;
+    bottom: 40px;
+    right: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
 }
 
-.apply-flex-row {
-  display: flex;
-  flex-direction: row;
+.go-top-btn-desktop i {
+    color: black;
+    width: 40px;
+    background-color: transparent;
+    text-align: center;
 }
 
-* {
-  font-family: 'Raleway', sans-serif;
+.hvr-underline-from-center:before {
+    background: linear-gradient(to right, rgba(238, 174, 202, 1) 0%, #330867 100%);
+}
+
+.about-me-title,
+.skills-title,
+.courses-title,
+.projects-title,
+.contact-me-title {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    background: linear-gradient(to right, rgba(238, 174, 202, 1) 0%, #330867 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-me-title {
+    margin-top: 0;
+}
+
+.about-me-title:hover,
+.skills-title:hover,
+.courses-title:hover,
+.projects-title:hover,
+.contact-me-title:hover {
+    cursor: pointer;
+}
+
+.about-me-title,
+.skills-title,
+.courses-title {
+    margin-left: 45%;
+}
+
+.doodle {
+    height: 60px;
+    position: absolute;
+    margin-top: 135px;
+}
+
+.about-me-figure {
+    z-index: -2;
+    position: absolute;
+    float: right;
+    margin-top: 15%;
+    right: -8%;
+}
+
+@media (max-width: 96em) {
+    .about-me-figure {
+        display: none;
+    }
+
+    .contact-me-figure {
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 82em) {
+    .doodle, 
+    .about-me-figure,
+    .contact-me-figure {
+        display: none;
+    }
+}
+
+@media (max-width: 62em) {
+    .doodle,
+    .about-me-figure,
+    .projects-figure,
+    .contact-me-figure {
+        display: none;
+    }
+
+    .about-me-title,
+    .skills-title,
+    .courses-title,
+    .projects-title,
+    .contact-me-title {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 43em) {
+   .go-top-btn-desktop {
+        font-size: 20px;
+        width: 35px;
+        height: 40px;
+   }
+
+    .about-me-title,
+    .skills-title,
+    .courses-title,
+    .projects-title,
+    .contact-me-title {
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+
+    .about-me-title,
+    .skills-title,
+    .courses-title {
+        margin-left: 35%;
+    }
+
+    .about-me-figure,
+    .projects-figure,
+    .lets-talk-figure,
+    .contact-me-figure {
+        display: none;
+    }
 }

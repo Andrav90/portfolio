@@ -1,0 +1,105 @@
+.contact-me {
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 16px;
+    margin-bottom: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-me-containers {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-me-container p {
+    color: #555759;
+}
+
+.contact-me-title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-me-icons {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+.cv-link {
+    color: black;
+}
+
+.contact-me-links:hover, .cv-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-me-icons:hover {
+   animation: bounce 2.5s infinite; 
+   -webkit-animation: bounce 2.5s infinite; 
+   -moz-animation: bounce 2.5s infinite; 
+   -o-animation: bounce 2.5s infinite;
+}
+
+.contact-me-links {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+}
+
+.contact-me-links p {
+    margin-top: 15px;
+}
+
+.contact-me-figure {
+    z-index: -1;
+    position: absolute;
+    float: right;
+    height: 30vh;
+    right: 0;
+    margin-right: -5%;
+}
+
+@media (max-width: 82em) {
+    .contact-me {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .contact-me-icons {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 62em) {
+    .contact-me {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 43em) {
+    .contact-me {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        flex-direction: column;
+    }
+
+    .contact-me-icons {
+        width: 30px;
+        height: 30px;
+    }
+}

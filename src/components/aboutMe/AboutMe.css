@@ -1,0 +1,175 @@
+.about-me {
+    height: auto;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-inner-container,
+.about-me-text-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me-text {
+    margin-left: 2%;
+    margin-right: 6%;
+    text-align: justify;
+}
+
+.my-picture {
+    margin-left: 3%;
+    margin-top: 3%;
+    height: 270px;
+    margin-top: 15%;
+    border-radius: 50%;
+    box-shadow: 5px 3px 3px #ccc;
+}
+
+.courses-inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.courses-links {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+}
+
+.courses-links:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.courses-icons {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.courses-text {
+    margin-top: 6px;
+}
+
+.bulletpoint {
+    width: 10px;
+    height: 10px;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+.skills-icons {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.skills-icons:hover {
+    animation: bounce 2.5s infinite;
+    -webkit-animation: bounce 2.5s infinite;
+    -moz-animation: bounce 2.5s infinite;
+    -o-animation: bounce 2.5s infinite;
+}
+
+.skills-outer-containers {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.skill-div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 82em) {
+    .about-me {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .about-me-inner-container {
+        flex-direction: column;
+    }
+
+    .my-picture {
+        height: 180px;
+        width: 180px;
+        align-self: center;
+        margin-top: -5vh;
+    }
+
+    .skills-icons {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 62em) {
+    .about-me {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .about-me-inner-container {
+        flex-direction: column;
+    }
+
+    .my-picture {
+        height: 180px;
+        width: 180px;
+        align-self: center;
+        margin-top: -5vh;
+    }
+
+    .courses-inner-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .skills-icons {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 43em) {
+    .about-me {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .about-me-inner-container {
+        flex-direction: column;
+    }
+
+    .my-picture {
+        height: 200px;
+        width: 200px;
+        align-self: center;
+        margin-top: 15vh;
+    }
+
+    .courses-inner-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .skills-icons {
+        width: 35px;
+        height: 35px;
+    }
+}
