@@ -36,7 +36,10 @@
     cursor: pointer;
 }
 
-@media (max-width: 96em) {
+/* BEFORE */
+/* @media (max-width: 96em) { */
+/* AFTER */
+@media (max-width: 200em) {
     .header {
         margin-bottom: 40vh;
     }

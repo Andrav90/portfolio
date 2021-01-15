@@ -1,4 +1,5 @@
 import React from 'react';
+import {motion} from 'framer-motion';
 import ExtendedInfo1 from './ExtendedInfo1';
 import ExtendedInfo2 from './ExtendedInfo2';
 import ExtendedInfo3 from './ExtendedInfo3';
@@ -38,7 +39,11 @@ function Projects() {
                 <img className="projects-figure" src="https://api-lunacy.icons8.com/api/assets/bbb1e11f-2e86-452d-80a2-b90d5b2b6d50/Scribbles.png" alt=""/>
                 <h3 className="projects-title hvr-underline-from-center">PROJECTS</h3>
                     <div className="projects-inner-container">
-                        <div className="projects-containers">
+                        <motion.div
+                            // animate={{ scale: 1.5 }}
+                            // transition={{ duration: 0.5 }}
+                            className="projects-containers"
+                        >
                             <img 
                                 src={project1Photo} 
                                 className="projects-photos photo-p1" 
@@ -54,7 +59,7 @@ function Projects() {
                                 onClick={displayExtendedInfo}
                                 >Machine learning visualization tool<br/>Click here to learn more
                             </button>
-                        </div>
+                        </motion.div>
 
                         <div className="projects-containers">
                             <img 
