@@ -15,7 +15,6 @@ function ExtendedInfo5() {
             <X className="close-extended" onClick={hideExtended5} />
             <p className="about-title">About</p>
             <p>This is a portfolio landing page created as a test for a front-end developer position.</p>
-            <p>Unfortunately I did not get the job due to lack of professional experience, but at least I got to keep the project.</p>
             <p>It is developed in vanilla JavaScript and the figures composing the background have been put together in the Lunacy program.</p>
             
             <p className="technologies-title">Technologies used</p>
