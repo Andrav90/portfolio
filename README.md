@@ -1,6 +1,6 @@
 # portfolio
 
-LIMK
+LINK
 
 https://adavraciu.ro/
 
